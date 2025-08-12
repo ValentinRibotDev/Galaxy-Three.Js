@@ -24,15 +24,15 @@ scene.add(group)
  */
 const parameters = {} // Create an object for lil-gui tweak
 
-parameters.count = 100000 // add count parameter to the object
-parameters.size = 0.01 // add size parameter to the object
-parameters.radius = 5 // add radius parameter to the object
-parameters.branches = 3 // add branches parameter to the object
-parameters.spin = 1 // add spin parameter to the object
-parameters.randomness = 0.2 // add random parameter to the object
-parameters.randomnessPower = 3 // add power to parameter to the object
-parameters.insideColor = '#ff6030' // add center color parameter to the object
-parameters.outsideColor = '#1b3984' // add exterior color parameter to the object
+parameters.count = 200000 // add count parameter to the object
+parameters.size = 0.001 // add size parameter to the object
+parameters.radius = 7.7 // add radius parameter to the object
+parameters.branches = 12 // add branches parameter to the object
+parameters.spin = 2 // add spin parameter to the object
+parameters.randomness = 0.9 // add random parameter to the object
+parameters.randomnessPower = 5 // add power to parameter to the object
+parameters.insideColor = '#6d411c' // add center color parameter to the object
+parameters.outsideColor = '#280606' // add exterior color parameter to the object
 
 // Initialize the variable
 let geometry = null
